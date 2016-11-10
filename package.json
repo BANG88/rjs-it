@@ -1,0 +1,29 @@
+{
+  "name": "rjs-it",
+  "version": "1.0.0",
+  "description": "A tool just works",
+  "main": "index.js",
+  "bin": "cli.js",
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bang88/rjs-it.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bang88/rjs-it/issues"
+  },
+  "homepage": "https://github.com/bang88/rjs-it#readme",
+  "dependencies": {
+    "cross-spawn": "^5.0.1",
+    "glob": "^7.1.1",
+    "meow": "^3.7.0",
+    "requirejs": "^2.3.2",
+    "strip-debug": "^1.1.1"
+  }
+}
