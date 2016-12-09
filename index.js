@@ -1,6 +1,5 @@
 var fs = require('fs')
 
-var rjs = require('requirejs')
 var stripDebug = require('strip-debug')
 var spawn = require('cross-spawn')
 
@@ -14,7 +13,7 @@ module.exports = function (configPath, output) {
   configPath = configPath || 'app.build.js'
   output = output || 'dist'
 
-  var rjs = spawn(__dirname + '/node_modules/requirejs/bin/r.js', ['-o', configPath])
+  var rjs = spawn(__dirname + '/requirejs/bin/r.js', ['-o', configPath])
 
   rjs.stdout.on('data', function (data) {
     console.log('stdout: ' + data)

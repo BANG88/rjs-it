@@ -23,7 +23,6 @@
     "cross-spawn": "^5.0.1",
     "glob": "^7.1.1",
     "meow": "^3.7.0",
-    "requirejs": "^2.3.2",
     "strip-debug": "^1.1.1"
   }
 }
