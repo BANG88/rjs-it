@@ -1,6 +1,6 @@
 {
   "name": "rjs-it",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool just works",
   "main": "index.js",
   "bin": "cli.js",
