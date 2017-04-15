@@ -1,8 +1,7 @@
 var fs = require('fs')
-
+var requirejs = require.resolve('requirejs')
 var stripDebug = require('strip-debug')
 var spawn = require('cross-spawn')
-
 var glob = require('glob')
 
 /**
@@ -12,8 +11,7 @@ var glob = require('glob')
 export default function (configPath: string, output: string) {
 	configPath = configPath || 'app.build.js'
 	output = output || 'dist'
-
-	var rjs = spawn(__dirname + '/requirejs/bin/r.js', ['-o', configPath])
+	var rjs = spawn(requirejs, ['-o', configPath])
 
 	rjs.stdout.on('data', function (data) {
 		console.log('stdout: ' + data)

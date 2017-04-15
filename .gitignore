@@ -2,4 +2,7 @@ node_modules
 *.js
 *.d.ts
 .yo-rc.json
+
+examples
+
 .vscode

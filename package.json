@@ -22,11 +22,12 @@
     ""
   ],
   "dependencies": {
-    "tslib": "^1.6.0",
-    "meow": "^3.7.0",
     "cross-spawn": "^5.0.1",
     "glob": "^7.1.1",
-    "strip-debug": "^1.1.1"
+    "meow": "^3.7.0",
+    "requirejs": "^2.3.3",
+    "strip-debug": "^1.1.1",
+    "tslib": "^1.6.0"
   },
   "devDependencies": {
     "@types/node": "^7.0.8",
