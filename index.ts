@@ -6,7 +6,7 @@ var glob = require('glob')
 
 /**
  * @param {string} configPath rjs config path
- * @param {strip} output output path default to dist
+ * @param {string} output output path default to dist
  */
 export default function (configPath: string, output: string) {
 	configPath = configPath || 'app.build.js'

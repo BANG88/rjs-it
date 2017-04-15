@@ -3,3 +3,9 @@
 tsconfig.json
 tslint.json
 snapshots*
+examples
+
+.vscode
+.yo-rc.json
+.editorconfig
+.gitattributes
