@@ -22,7 +22,6 @@ export default function (configPath: string, output: string) {
 	})
 
 	rjs.on('close', function (code) {
-		console.log('child process exited with code ' + code)
 		if (code === 0) {
 			// options is optional
 			/**
@@ -42,6 +41,9 @@ export default function (configPath: string, output: string) {
 					console.log('strip debug done ')
 				}
 			})
+		} else {
+			process.exit(1)
 		}
+		console.log('child process exited with code ' + code)
 	})
 }

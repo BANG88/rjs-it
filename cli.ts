@@ -8,7 +8,7 @@ var cli = meow([
     '',
     'Examples',
     '  $ rjs-it app.build.js dist',
-]);
+])
 
 
 rjsIt(cli.input[0], cli.input[1])
